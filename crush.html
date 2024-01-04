@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .card{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aqua;
+        border-radius: 5px;
+        border: 3px;
+    }
+</style>
+<body>
+    <div class="card">
+        <div class="card2">
+            <form action="" class="form">
+                <p id="heading" style="font-weight: bold;">Will You Marry Me?</p>
+                <div class="btn">
+                    <a href="services.html" class="button1" style="font-size:1em; font-weight: bold ;">YES!</a>
+                    <button class="button2" style="font-size: 1em; font-weight: bold;">NO!</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        const form = document.querySelector('.card2');
+        const noBtn = document.querySelector('.button2');
+
+        const formReact = form.getBoundingClientRect();
+        const noBtnReact = noBtn.getBoundingClientRect();
+
+        noBtn.addEventListener('.mouseover',() => {
+            const i =Math.floor(Math.random() * (formReact.width - noBtnReact.width)) + 2;
+            const j =Math.floor(Math.random() * (formReact.height - noBtnReact.height)) + 2;
+
+            noBtn.style.left - i + 'px';
+            noBtn.style.top - j + 'px';
+        });
+    </script>
+</body>
+</html>

@@ -45,9 +45,9 @@ Here are some of my key projects:
 
 ## 🤝 Let's Connect!
 
-- GitHub: [github.com/yourusername](https://github.com/adrian-254)
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/adrian_254)
-- Twitter: [twitter.com/yourusername](https://twitter.com/dzaddzzyy)
+- GitHub: [github.com/adrian-254](https://github.com/adrian-254)
+- LinkedIn: [linkedin.com/in/adrian_254](https://linkedin.com/in/adrian_254)
+- Twitter: [twitter.com/dzaddzzyy](https://twitter.com/dzaddzzyy)
 
 Feel free to explore my projects, give feedback, or collaborate! 🚀
 
